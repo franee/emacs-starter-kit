@@ -87,9 +87,6 @@
 ;; show line numbers
 (global-linum-mode 1)
 
-;; git
-(require 'magit)
-
 ;; remove trailing spaces on save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
